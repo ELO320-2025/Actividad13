@@ -95,7 +95,7 @@ int main() {
     if (resultado) {
         printf("Encontrado: %s (%s)\n", resultado->mascota.nombre, resultado->mascota.tipo);
     } else {
-        printf("Mascota no encontrada\n");
+        printf("Mascota no encontrada :( \n");
     }
 
     printf("\nBuscando a 'Bolt'...\n");
@@ -103,7 +103,7 @@ int main() {
     if (resultado) {
         printf("Encontrado: %s (%s)\n", resultado->mascota.nombre, resultado->mascota.tipo);
     } else {
-        printf("Mascota no encontrada\n");
+        printf("Mascota no encontrada :( \n");
     }
 
     return 0;
